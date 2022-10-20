@@ -1,0 +1,6 @@
+*
+
+
+!.gitignore
+!SpringDamperModel.m
+!SeismicTunedMass.m
