@@ -3,7 +3,7 @@ close all
 clear all
 
 wn = 1;
-eta = 0.1;
+eta = ;
 dt = .05;
 t_span = 0:dt:50;
 x0 = [1 0]; %x1 , x1dot , x2 , x2dot 
