@@ -16,7 +16,7 @@ f = @(t,x)[x(2);
     x(4);
     we*we*xg*sin(we*t)-w2^2*(x(3)-x(1))];
 [t,x] = ode45(f,t_span,x0);
-plot(t_span,x(:,1));
+plot(t,x(:,1));
 hold on
 xg = .01;
 w1 = 1;
